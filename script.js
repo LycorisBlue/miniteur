@@ -26,7 +26,7 @@ function startTimer() {
 
         if (timeRemaining <= 0) {
             clearInterval(timerInterval);
-            timerDisplay.textContent = "Terminé!";
+            timerDisplay.textContent = "Terminé...!";
         }
     }, 100);
 }
